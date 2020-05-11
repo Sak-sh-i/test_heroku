@@ -13,11 +13,6 @@ Last Name:<input type="text" size="12" maxlength="36" name="Lname"><br /></form>
 <input type="submit" name="submit" id="submit" value="Submit">
 <?
 if (isset($_POST['submit'])) {
-
-    //Data
-    
-    $Fname = $_POST('Fname');
-    $Lname = $_POST('Lname');
     
     echo "Hello, ".$Fname." ".$Lname.".<br />";
 
