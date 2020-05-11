@@ -1,4 +1,6 @@
 <?php
+
+echo "I am here!";
 if (isset($_POST['submit'])) {
 
     //Data
